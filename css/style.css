@@ -1,0 +1,148 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url('https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Mulish";
+	background: rgb(193, 193, 193);
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+.title{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+	padding: 50px;
+	margin: 10px auto 100px auto;
+	max-width: 1400px;
+	text-shadow: 3px 3px 2px grey;
+	color: rgb(35, 35, 35);
+	background-color: rgb(123, 123, 123);
+	box-shadow: 10px 10px rgb(85, 85, 85);
+	border-radius: 40px;
+	background-image: linear-gradient(270deg, rgba(123,123,123,1) 42%, rgba(123,123,123,0) 100%), url("../img/piano.jpg");
+	background-repeat: no-repeat;
+}
+.music {
+	padding: 0px 0px 0px 200px;
+}
+.music *:not(.music__block){
+	background-color: rgb(157, 157, 157);
+	width: 500px;
+	border-radius: 40px;
+	box-shadow: 10px 10px rgb(85, 85, 85);
+	font-size: 30px;
+	font-weight: 800;
+	color: rgb(35, 35, 35);
+	text-shadow: 3px 3px 2px grey;
+	display: inline-block;
+	text-align: center;
+	background-repeat: no-repeat;
+	top: 0px;
+	margin: 0px 100px 100px 0px;
+	padding: 20px 0px 400px 0px;
+	background-position: center;
+	justify-content: center;
+	position: relative;
+}
+.mozart{
+	background-image: url("../img/Mozart.jpg");
+}
+.bethoven{
+	background-image: url("../img/bethoven.jpg");
+}
+.tiersen{
+	background-image: url("../img/tiersen.jpg")
+}
+.shopen{
+	background-image: url("../img/shopen.jpg")
+}
+.bah{
+	background-image: url("../img/bah.jpg")
+}	
+.shubert{
+	background-image: url("../img/shubert.jpg");
+}
+.einaudi{
+	background-image: url("../img/einaudi.jpg");
+}
+.bartok{
+	background-image: url("../img/Bartok.jpg");
+}
+.petr{
+	background-image: url("../img/petr.jpg");
+}
+.per{
+	background-image: url("../img/per.jpg");
+}
+.bah:hover,
+.bethoven:hover,
+.mozart:hover,
+.shopen:hover,
+.shubert:hover,
+.tiersen:hover,
+.einaudi:hover,
+.bartok:hover,
+.petr:hover,
+.per:hover {
+	box-shadow: 10px 10px rgb(30, 30, 30);
+	text-decoration: underline rgb(17, 17, 17);
+	color: rgb(17, 17, 17);
+}
+.bah:active,
+.mozart:active,
+.shopen:active,
+.shubert:active,
+.bethoven:active,
+.tiersen:active,
+.einaudi:active,
+.bartok:active,
+.petr:active,
+.per:active{
+	box-shadow: 6px 6px rgb(30, 30, 30);
+	top: 4px;
+	left: 4px;
+}
